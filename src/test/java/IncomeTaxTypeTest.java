@@ -7,7 +7,7 @@ public class IncomeTaxTypeTest {
 
 
     @org.junit.jupiter.api.Test
-    public void IncomeTaxTypeTest()
+    public void incomeTaxTypeTest()
     {
         // given:
         BigDecimal amount = new BigDecimal (1000);

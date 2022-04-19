@@ -6,10 +6,9 @@ public class ProgressiveTaxTypeTest {
     ProgressiveTaxType sut = new ProgressiveTaxType();
 
     @org.junit.jupiter.api.Test
-    public void ProgressiveTaxTypeTest()
-    {
+    public void progressiveTaxTypeTest() {
         // given:
-        BigDecimal amount = new BigDecimal (100000.00);
+        BigDecimal amount = new BigDecimal(100000.00);
         BigDecimal expected = new BigDecimal("15000.00");
 
         // when:
@@ -17,4 +16,5 @@ public class ProgressiveTaxTypeTest {
         // then:
         assertEquals(expected, result);
     }
+
 }
